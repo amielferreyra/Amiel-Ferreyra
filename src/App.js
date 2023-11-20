@@ -1,9 +1,9 @@
-import './App.css';
+import './App.scss';
 import About from './views/about/About';
-import Skills from './views/skills/skills';
-import Portafolio from './views/portafolio/portafolio';
-import Contact from './views/contact/contact';
-import Home from './views/home/home';
+import Skills from './views/skills/Skills';
+import Portafolio from './views/portafolio/Portafolio';
+import Contact from './views/contact/Contact';
+import Home from './views/home/Home';
 
 function App() {
   return (
