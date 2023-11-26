@@ -1,0 +1,33 @@
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-color: #323946;
+    height: 100vh;
+    
+
+    img{
+        border: 2px solid #1f242d;
+        border-radius: 50%;
+    }
+
+    .about-content{
+        color: white;
+        font-family: Poppins;
+
+        h3{
+            color: black;
+        }
+
+        p{
+            font-size: 19px;
+            margin: 2rem;
+        }
+    }
+
+    .about-content h2,h3{
+        margin-left: 2rem;
+    }
+
+}

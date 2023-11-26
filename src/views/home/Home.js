@@ -10,11 +10,11 @@ function Home(){
             <section className="home">
                 <div className="home-content">
                     <h1>
-                        ¡Hola!
+                        ¡Hola!, soy Amiel Ferreyra.
                         <br/>
-                        Soy desarrollador Front-End
+                        <span>desarrollador Front-End</span>  
                     </h1>
-                    <p>Soy desarrollador Full Stack apasionado por los desafios y por el trabajo en equipo, ya que es una forma de intercambiar conocimientos y crecer profesionalmente. Me especializo en Front-End pero estoy abierto a nuevas tecnologías y en constante aprendizaje. Utilizo frameworks y librerías actuales para desarrollar interfaces de usuarios de alta calidad tanto del lado del cliente como del servidor (backend), principalmente con React (frontend).</p>
+                    <p>Soy desarrollador Full Stack apasionado por los desafios y por el trabajo en equipo. Me especializo en Front-End pero estoy abierto a nuevas tecnologías y en constante aprendizaje.</p>
                     <div className="social-media">
                         <a href="#"><box-icon name='linkedin-square' type='logo' color='#ffffff' ></box-icon></a>
                         <a href="#"><box-icon name='github' type='logo' color='#ffffff' ></box-icon></a>

@@ -2,6 +2,7 @@
     height: 12vh;
     background-color: #1f242d;
     font-family: 'Poppins';
+    border-bottom: 1px solid rgba(127, 255, 212, 0.479);
   
     .navbar-brand {
       margin-left: 70px;
@@ -27,7 +28,7 @@
     }
 
 section{
-    min-height: 100vh;
+    height: 100vh;
     background-color:#1f242d;
     padding: 9rem;
     display: flex;
@@ -36,6 +37,16 @@ section{
 
     h1, p {
         color: white;
+        font-family: Poppins;
+        margin: 1rem;
+    }
+
+    h1{
+        font-size: 39px;
+    }
+    
+    span{
+        color: aquamarine;
     }
 
     .social-media a{
@@ -58,7 +69,6 @@ section{
         color: white;
         margin-top:15px;
         width: 200px;
-
     }
 
     .btn:hover{

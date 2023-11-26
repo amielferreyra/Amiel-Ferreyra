@@ -16,13 +16,13 @@ function Navbar(){
                             <a className="nav-link active" aria-current="page" href="#inicio">Inicio</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link active" aria-current="page" href="#nosotros">Sobre mi</a>
+                            <a className="nav-link active" aria-current="page" href="#about">Sobre mi</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link active" aria-current="page" href="#productos">Habilidades</a>
+                            <a className="nav-link active" aria-current="page" href="#habilidades">Habilidades</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link active" aria-current="page" href="#servicios">Portafolio</a>
+                            <a className="nav-link active" aria-current="page" href="#portafolio">Portafolio</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link active" aria-current="page" href="#contacto">Contacto</a>
