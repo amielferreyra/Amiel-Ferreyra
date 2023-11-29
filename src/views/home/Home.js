@@ -12,7 +12,7 @@ function Home(){
                     <h1>
                         ¡Hola!, soy Amiel Ferreyra.
                         <br/>
-                        <span>desarrollador Front-End</span>  
+                        <span>Desarrollador Front-End</span>  
                     </h1>
                     <p>Soy desarrollador Full Stack apasionado por los desafios y por el trabajo en equipo. Me especializo en Front-End pero estoy abierto a nuevas tecnologías y en constante aprendizaje.</p>
                     <div className="social-media">

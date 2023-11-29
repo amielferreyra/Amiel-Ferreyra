@@ -6,6 +6,10 @@
     background-color: #323946;
     height: 100vh;
     
+    .heading{
+        font-size: 2.5rem;
+        color: white;
+    }
 
     img{
         border: 2px solid #1f242d;
@@ -23,6 +27,10 @@
         p{
             font-size: 19px;
             margin: 2rem;
+        }
+
+        a{
+            margin-left: 2rem;
         }
     }
 
