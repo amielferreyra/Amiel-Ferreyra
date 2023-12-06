@@ -1,0 +1,40 @@
+.contact{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    h1{
+        margin-bottom: 3rem;
+        font-size: 55px;
+    }
+
+    .contact-box{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: row;
+        width: 700px;
+        height: 120px;
+        border: 1px solid #323946;
+        border-radius: 50px;
+
+        div{
+            margin: 1rem;
+
+            a{
+                text-decoration: none;
+                font-size: 35px;
+                font-family: Poppins;
+                color: white;
+                margin-left: .5rem;
+            }
+
+            a:hover{
+                color: aquamarine;
+                border-bottom: 1px solid aquamarine;
+                transition: 0.5s ease;
+            }
+        }
+    }
+}
+

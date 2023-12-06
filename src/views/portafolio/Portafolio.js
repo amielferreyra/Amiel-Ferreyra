@@ -12,18 +12,29 @@ function Portafolio(){
                     <img className="view" src={twenty}  alt="" />
                     <div className="portafolio-layer">
                         <h4>Twenty five</h4>
-                        <a href="#" className="hi">
-                            <box-icon name='link-external'></box-icon>
-                        </a>
+                            <div className="ho">
+                                <a href="#"  className="hi">
+                                    <box-icon name='link-external'></box-icon>
+                                </a>
+                                <a href="#" className="hi">
+                                    <box-icon  name='github' type='logo'></box-icon>
+                                </a>                        
+                        </div>
                     </div>
                 </div>
                 <div className="portafolio-box">
                     <img className="view" src={vater}  alt="" />
                     <div className="portafolio-layer">
                         <h4>Vatercor</h4>
-                        <a href="#"  className="hi">
-                            <box-icon name='link-external'></box-icon>
-                        </a>
+                            <div className="ho">
+                                <a href="#"  className="hi">
+                                    <box-icon name='link-external'></box-icon>
+                                </a>
+                                <a href="#" className="hi">
+                                    <box-icon name='github' type='logo'></box-icon>
+                                </a>                        
+                            </div>
+
                     </div>
                 </div>
             </div>

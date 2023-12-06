@@ -44,8 +44,7 @@
                 flex-direction: column;
                 text-align: center;
                 padding: 4rem;
-                transform: translateY(100%);
-                transition: .5s ease;
+
 
                 h4{
                     color: white;
@@ -61,18 +60,24 @@
                     background-color: rgb(255, 255, 255);
                     border-radius: 50%;
                     margin-top: 2rem;
+                    margin: 1rem;
                 }
 
-                .hi a{
-                    font-size: 3rem;
-                    color: black;
+                .hi:hover{
+                    transform: scale(1.1);
+                    transition: .5s ease;
                 }
 
+                .ho{
+                    display: flex;
+                    flex-direction: row;
+                }
 
             }
 
             .portafolio-layer:hover{
-                transform: translateY(0%);
+                transform: scale(1.1);
+                transition: .5s ease;
             }
 
 
