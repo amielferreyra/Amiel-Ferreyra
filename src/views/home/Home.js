@@ -5,7 +5,7 @@ import logo from "../../imagenes/header.png"
 
 function Home(){
     return(
-        <header id="#inicio">
+        <header id="#home">
             <Navbar/>
             <section className="home">
                 <div className="home-content">

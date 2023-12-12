@@ -3,7 +3,7 @@ import './components/Contact.scss'
 
 function Contact(){
     return(
-        <section id="contacto" className="contact">
+        <section id="#contact" className="contact">
             <h1><span>C</span>ontactame</h1>
             <div className="contact-box">
                 <div className="links">
