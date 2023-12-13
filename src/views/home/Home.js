@@ -8,7 +8,7 @@ function Home(){
         <header id="#home">
             <Navbar/>
             <section className="home">
-                <div className="home-content">
+                <div className="home-content"  data-aos="fade-right" data-aos-duration="500">
                     <h1>
                         ¡Hola!, soy Amiel Ferreyra.
                         <br/>
@@ -22,7 +22,7 @@ function Home(){
                     
                     <a href="#" className="btn">Mi CV</a>
                 </div>
-                <div>
+                <div data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500">
                     <img src={logo}  alt="" />
                 </div>
             </section>

@@ -8,7 +8,7 @@ function Portafolio(){
         <section className="portafolio" id="#portafolio">
             <h2 className="heading"><span>P</span>ortafolio</h2>
             <div className="portafolio-container">
-                <div className="portafolio-box">
+                <div className="portafolio-box" data-aos="zoom-in">
                     <img className="view" src={twenty}  alt="" />
                     <div className="portafolio-layer">
                         <h4>Twenty five</h4>
@@ -22,7 +22,7 @@ function Portafolio(){
                         </div>
                     </div>
                 </div>
-                <div className="portafolio-box">
+                <div className="portafolio-box" data-aos="zoom-in">
                     <img className="view" src={vater}  alt="" />
                     <div className="portafolio-layer">
                         <h4>Vatercor</h4>

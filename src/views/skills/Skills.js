@@ -18,7 +18,7 @@ function Skills(){
             <div className="skills-details-container">
                 <h1 className="titulo"><span>H</span>abilidades</h1>
                 <div className="about-containers">
-                    <div className="details-containers">
+                    <div className="details-containers" data-aos="fade-up">
                         <h2 className="habilidades-sub-titulo">Front-End</h2>
                         <div className="article-container">
                             <article>
@@ -61,7 +61,7 @@ function Skills(){
                             </article>
                         </div>
                     </div>
-                    <div className="details-containers">
+                    <div className="details-containers" data-aos="fade-up">
                         <h2 className="habilidades-sub-titulo">Back-End</h2>
                         <div className="article-container">
                             <article>
@@ -80,7 +80,7 @@ function Skills(){
                             </article>                            
                         </div>
                     </div>
-                    <div className="details-containers">
+                    <div className="details-containers" data-aos="fade-up">
                         <h2 className="habilidades-sub-titulo">Otros</h2>
                         <div className="article-container">
                             <article>
