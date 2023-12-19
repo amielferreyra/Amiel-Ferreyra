@@ -13,6 +13,21 @@
   
     .navbar-collapse {
       flex-grow: 0 !important;
+
+      .modo{
+        margin-right: 2rem;
+        margin-top: .5rem;
+
+         
+        box-icon{
+            cursor: pointer;
+            width: 2rem;
+            height: 2rem;
+        }
+
+      }
+
+
       .nav-item {
         margin: 1rem;
 

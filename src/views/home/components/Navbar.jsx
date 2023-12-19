@@ -1,8 +1,11 @@
 import React from "react"; 
 import './Home.scss'
 import {Link} from 'react-scroll'
+import { useState } from "react";
+
 
 function Navbar(){
+
     return(
         <nav className="navbar navbar-expand-lg fixed-top">
             <div className="container-fluid">
@@ -12,6 +15,9 @@ function Navbar(){
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div className="modo">
+                        <box-icon name='sun' type='solid' color='#fdfdfd' ></box-icon>
+                    </div>
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                         <li className="nav-item">
                             <Link to="home" spy={true} smooth={true} offset={-50} duration={70} className="nav-link active" aria-current="page">Inicio</Link>
