@@ -86,3 +86,24 @@
         
     }
 }
+
+@media screen and (max-width: 600px){
+    .heading{
+        font-size: 30px !important;
+        margin-bottom: 1rem !important;
+        span{
+            font-size: 30px !important;
+        }
+    }
+
+    .portafolio-box{
+        width: 260px;
+        height: 250px;
+
+        .view{
+            width: 260px !important;
+        }
+
+    }
+    
+}

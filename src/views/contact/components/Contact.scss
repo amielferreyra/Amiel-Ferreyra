@@ -68,3 +68,20 @@
         transition: 0.5s ease;
     }
 }
+
+@media screen and (max-width: 600px){
+    .contact-box{
+        width: 100% !important; 
+        height: 40% !important;
+        flex-direction: column !important;
+        justify-content: center;
+
+        div{
+            margin: 0 !important;
+
+            a{
+                margin: 1rem !important;
+            }
+        }
+    }
+}
