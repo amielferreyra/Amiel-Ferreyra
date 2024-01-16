@@ -95,15 +95,46 @@
             font-size: 30px !important;
         }
     }
-
-    .portafolio-box{
-        width: 260px;
-        height: 250px;
-
-        .view{
-            width: 260px !important;
+    .portafolio-container{
+        flex-wrap: wrap !important;
+        
+        .portafolio-box{
+            width: 260px;
+            height: 250px;
+    
+            .view{
+                width: 260px !important;
+                margin: 0 !important;
+            }
+    
         }
 
     }
+
     
+}
+
+@media screen and (max-width: 768px){
+
+    .heading{
+        font-size: 30px !important;
+        margin-bottom: 0.5rem !important;
+        span{
+            font-size: 30px !important;
+        }
+    }
+        .portafolio-box{
+            width: 400px;
+            height: 210px;
+                
+            .view{
+                width: 400px !important;
+                margin: 0 !important;
+            }
+    
+        }
+    
+
+
+
 }

@@ -11,8 +11,8 @@
       }
     }
   
-    .navbar-collapse {
-      flex-grow: 0;
+    .navbar-collapse{
+        flex-grow: 0;
 
       .nav-item {
         margin: 1rem;
@@ -119,20 +119,79 @@ section{
     .navbar-brand{
         margin-left: 10px !important;
         font-size: 23px !important;
+    }
 
-        .container-fluid{
-            background-color: #323946 !important;
+    .navbar-collapse{
+        background-color: #323946;
+        border: 1px solid aquamarine;
 
-            ul{
-                text-align: center !important;
-            }
+        ul{
+            text-align: center !important;
+        }
 
-            a:hover{
-                border: 1px solid #1f242d !important;
-            }
+        a:hover{
+            border: 1px solid #1f242d !important;
         }
     }
 
+    .navbar-toggler{
+        margin-right: 1rem;
+        border: 1px solid black;
+        .navbar-toggler-icon{
+            filter: invert(100%);
+        }
+    }
+
+
+}
+
+@media screen and (max-width: 768px){
+
+    section{
+
+        h1, span{
+            font-size: 21px;
+        }
+
+        p{
+            font-size: 13px;
+        }
+
+        .social-media a{
+            width: 3.5rem;
+            height: 3.5rem;
+            margin-right: 1rem;
+            margin-left: 1rem;
+        }
+
+        .btn{
+            margin-left: 1rem;
+        }
+
+    }
+
+
+
+    .navbar-collapse{
+        background-color: #323946;
+        border: 1px solid aquamarine;
+
+        ul{
+            text-align: center ;
+        }
+
+        a:hover{
+            border: 1px solid #1f242d ;
+        }
+    }
+
+    .navbar-toggler{
+        margin-right: 1rem;
+        border: 1px solid black;
+        .navbar-toggler-icon{
+            filter: invert(100%);
+        }
+    }
 
 
 
