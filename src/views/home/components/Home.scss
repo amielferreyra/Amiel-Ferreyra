@@ -164,6 +164,10 @@ section{
             margin-left: 1rem;
         }
 
+        img{
+            width: 400px;
+        }
+
         .btn{
             margin-left: 1rem;
         }
@@ -195,4 +199,33 @@ section{
 
 
 
+}
+
+@media screen and (min-width: 1024px){
+    section{
+
+        h1, span{
+            font-size: 23px;
+        }
+
+        p{
+            font-size: 15px;
+        }
+
+        .social-media a{
+            width: 3.5rem;
+            height: 3.5rem;
+            margin-right: 1rem;
+            margin-left: 1rem;
+        }
+
+        img{
+            width: 400px;
+        }
+
+        .btn{
+            margin-left: 1rem;
+        }
+
+    }
 }
