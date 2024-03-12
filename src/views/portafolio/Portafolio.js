@@ -13,10 +13,10 @@ function Portafolio(){
                     <div className="portafolio-layer">
                         <h4>Twenty five</h4>
                             <div className="ho">
-                                <a href="#" target="_blank" rel="noopener noreferrer"  className="hi">
+                                <a href="https://amielferreyra.github.io/twentyfive.github.io/" target="_blank" rel="noopener noreferrer"  className="hi">
                                     <box-icon name='link-external'></box-icon>
                                 </a>
-                                <a href="https://github.com/amielferreyra/twenty-five" target="_blank" rel="noopener noreferrer" className="hi">
+                                <a href="https://github.com/amielferreyra/twentyfive.github.io" target="_blank" rel="noopener noreferrer" className="hi">
                                     <box-icon  name='github' type='logo'></box-icon>
                                 </a>                        
                         </div>
@@ -27,10 +27,10 @@ function Portafolio(){
                     <div className="portafolio-layer">
                         <h4>Vatercor</h4>
                             <div className="ho">
-                                <a href="#" target="_blank" rel="noopener noreferrer"  className="hi">
+                                <a href="https://amielferreyra.github.io/vatercor.github.io/" target="_blank" rel="noopener noreferrer"  className="hi">
                                     <box-icon name='link-external'></box-icon>
                                 </a>
-                                <a href="https://github.com/amielferreyra/Vatercor-mundosE" target="_blank" rel="noopener noreferrer" className="hi">
+                                <a href="https://github.com/amielferreyra/vatercor.github.io" target="_blank" rel="noopener noreferrer" className="hi">
                                     <box-icon name='github' type='logo'></box-icon>
                                 </a>                        
                             </div>
