@@ -1,11 +1,21 @@
 .contact{
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
+    height: 100vh;
+    background-color: #1f242d;
 
     h1{
+        color: white;
+        font-family: Poppins;
         margin-bottom: 3rem;
         font-size: 55px;
+    }
+
+    span{
+        color: aquamarine;
+        font-size: 32px;
     }
 
     .contact-box{

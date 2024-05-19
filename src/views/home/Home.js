@@ -16,14 +16,14 @@ function Home(){
                     </h1>
                     <p>Soy desarrollador Full Stack apasionado por los desafios y por el trabajo en equipo. Me especializo en Front-End pero estoy abierto a nuevas tecnologías y en constante aprendizaje.</p>
                     <div className="social-media">
-                        <a href="https://github.com/amielferreyra" target="_blank" rel="noopener noreferrer"><box-icon name='github' type='logo' color='#ffffff' ></box-icon></a>
-                        <a href="https://www.linkedin.com/in/amiel-ferreyra-51ab4b240/" target="_blank" rel="noopener noreferrer"><box-icon name='linkedin-square' type='logo' color='#ffffff' ></box-icon></a>
+                        <a href="https://github.com/amielferreyra" target="_blank" rel="noopener noreferrer"><box-icon name='github' type='logo' color='#ffffff' className="aHome" ></box-icon></a>
+                        <a href="https://www.linkedin.com/in/amiel-ferreyra-51ab4b240/" target="_blank" rel="noopener noreferrer"><box-icon name='linkedin-square' type='logo' color='#ffffff' className="aHome" ></box-icon></a>
                     </div>
                     
-                    <a href="https://drive.google.com/file/d/14FrIn0pm9je15EpCgTtomyMHKz3Oay1y/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="btn">Mi CV</a>
+                    <a href="https://drive.google.com/file/d/15iPsL-Tj4wL9RoQZCAjLhsxxhFHPqgdA/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="btn">Mi CV</a>
                 </div>
                 <div data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500">
-                    <img src={logo}  alt="" />
+                    <img className="imgHome" src={logo}  alt="" />
                 </div>
             </section>
         </header>

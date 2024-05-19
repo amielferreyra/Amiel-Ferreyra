@@ -14,9 +14,9 @@ import php from '../../imagenes/php.png'
 
 function Skills(){
     return(
-        <section id="#skills" className="skills">
+        <section id="skills" className="skills">
             <div className="skills-details-container">
-                <h1 className="titulo"><span>H</span>abilidades</h1>
+                <h1 className="tituloskills"><span>H</span>abilidades</h1>
                 <div className="about-containers">
                     <div className="details-containers" data-aos="fade-up">
                         <h2 className="habilidades-sub-titulo">Front-End</h2>

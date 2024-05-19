@@ -3,6 +3,7 @@
     justify-content: center;
     align-items: center;
     gap: 2rem;
+    padding: 9rem;
     background-color: #323946;
     height: 100vh;
     
@@ -19,6 +20,22 @@
     .about-content{
         color: white;
         font-family: Poppins;
+
+        span{
+            color: aquamarine;
+        }
+
+        .btn{
+            border: 2px solid white;
+            color: white;
+            margin-top:15px;
+            width: 200px;
+        }
+
+        .btn:hover{
+            border: solid 1px aquamarine;
+            color:aquamarine;
+        }
 
         h3{
             color: black;
