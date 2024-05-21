@@ -41,7 +41,7 @@ function Portafolio(){
                 <div className="portafolio-box" data-aos="zoom-in">
                     <img className="view" src={portafolio}  alt="" />
                     <div className="portafolio-layer">
-                        <h4>Vatercor</h4>
+                        <h4>Portafolio</h4>
                             <div className="ho">
                                 <a href="https://amielferreyra.com/" target="_blank" rel="noopener noreferrer"  className="hi">
                                     <box-icon name='link-external'></box-icon>

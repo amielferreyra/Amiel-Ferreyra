@@ -6,59 +6,66 @@
     .tituloskills{
         color: white;
         font-family: Poppins;
-        font-size: 30px;
+        font-size: 35px;
         text-align: center;
-        margin-bottom: 2rem;
+        margin-bottom: 0.5rem;
     }
 
     span{
         color: aquamarine;
-        font-size: 32px;
+        font-size: 40px;
     }
-    
-    .about-containers{
-        display: grid;
-        grid-template-columns:repeat(auto-fill, minmax(350px, 1fr));
-        gap: 10px;
-        margin: 1rem;
 
-        .details-containers{
-            width: auto;
-            border-radius: 2rem;
-            border: 2px solid  #323946;
-            text-align: center;
+    .center-about{
+        padding: 0rem 0.3rem;
 
-            .habilidades-sub-titulo{
-                color: white;
-                margin: 0.5rem;
-            }
+        .about-containers{
+            display: grid;
+            grid-template-columns:repeat(auto-fill, minmax(300px, 1fr));
+            gap: 10px;
+            place-content: center;
     
-            .article-container{
-                display: grid;
-                grid-template-columns:repeat(auto-fill, minmax(109px, 1fr));
-                place-items: center;
-                padding: 1rem;
-            
-                article{
+    
+            .details-containers{
+                width: auto;
+                border-radius: 2rem;
+                border: 2px solid  #323946;
+                text-align: center;
+    
+                .habilidades-sub-titulo{
+                    color: white;
+                    font-size: 27px;
+                }
+        
+                .article-container{
                     display: grid;
-                    grid-template-columns:1fr 1fr;
+                    grid-template-columns:repeat(auto-fill, minmax(109px, 1fr));
                     place-items: center;
-                    font-family: Poppins;
-
-                    .icon{
-                        width: 45px;
-                    }
+                    padding: 0.5rem;
+                
+                    article{
+                        display: grid;
+                        grid-template-columns:1fr 1fr;
+                        place-items: center;
+                        font-family: Poppins;
     
-                    h3{
-                        color: white;
-                        font-size: 15px !important;
+                        .icon{
+                            width: 45px;
                         }
-                        
-                    p{
-                        font-size: 10px;
+        
+                        h3{
+                            color: white;
+                            font-size: 13px !important;
+                            }
+                            
+                        p{
+                            color: white;
+                            font-size: 10px;
+                        }
                     }
                 }
             }
         }
     }
+    
 }
